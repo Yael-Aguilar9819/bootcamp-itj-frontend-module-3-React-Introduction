@@ -1,19 +1,19 @@
 import React from 'react'
 
-const Blog = (props) => { 
+const Post = (props) => { 
 
   return (
     <div class="blog-post">
       <div class="blog-post-image">
-            <img src={props.blog.imgSrc} alt={props.blog.alt} width="250" height="250"/>
+            <img src={props.post.imgSrc} alt={props.post.alt} width="250" height="250"/>
         </div>
         <div class="blog-post-details">
-            <p>{props.blog.updatedAt}</p>
+            <p>{props.post.updatedAt}</p>
             <h1>
-                {props.blog.title}
+                {props.post.title}
             </h1>
             <p>
-              {props.blog.body}
+              {props.post.body}
             </p>
             <a href="post.html" target="_blank">READ MORE</a>
         </div>
@@ -21,4 +21,4 @@ const Blog = (props) => {
   )
 }
 
-export default Blog
+export default Post

@@ -1,4 +1,4 @@
-const getAllBlogs = () => {
+const getAllPosts = () => {
   return (
     [{
       title:"ITJ wants to commemorate the World Engineering Day 2022", 
@@ -27,7 +27,7 @@ const getAllBlogs = () => {
 }
 
 const exportedFunctions = {
-  getAllBlogs
+  getAllPosts
 };
 
 export default exportedFunctions;

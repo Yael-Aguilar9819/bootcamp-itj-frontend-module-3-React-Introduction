@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FeaturedBlog = (props) => { 
+const FeaturedPost = (props) => { 
 
   return (
     <div class="blog-post-feature">
@@ -21,4 +21,4 @@ const FeaturedBlog = (props) => {
   )
 }
 
-export default FeaturedBlog
+export default FeaturedPost
