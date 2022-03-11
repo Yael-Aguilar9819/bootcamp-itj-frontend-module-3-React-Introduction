@@ -5,15 +5,15 @@ const Blog = (props) => {
   return (
     <div class="blog-post">
       <div class="blog-post-image">
-            <img src={props.imgSrc} alt={props.alt} width="250" height="250"/>
+            <img src={props.blog.imgSrc} alt={props.blog.alt} width="250" height="250"/>
         </div>
         <div class="blog-post-details">
-            <p>{props.updatedAt}</p>
+            <p>{props.blog.updatedAt}</p>
             <h1>
-                {props.title}
+                {props.blog.title}
             </h1>
             <p>
-              {props.body}
+              {props.blog.body}
             </p>
             <a href="post.html" target="_blank">READ MORE</a>
         </div>
