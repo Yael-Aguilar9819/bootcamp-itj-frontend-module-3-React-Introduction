@@ -1,19 +1,19 @@
 import React from 'react'
 
-const FeaturedPost = (props) => { 
+const FeaturedPost = ({title, alt, imgSrc, body, updatedAt}) => { 
 
   return (
     <div class="blog-post-feature">
       <div class="blog-post-feature-image">
-            <img src={props.imgSrc} alt={props.alt}/>
+            <img src={imgSrc} alt={alt}/>
         </div>
         <div class="blog-post-details">
-            <p>{props.updatedAt}</p>
+            <p>{updatedAt}</p>
             <h1>
-                {props.title}
+                {title}
             </h1>
             <p>
-              {props.body}
+              {body}
             </p>
             <a href="post.html" target="_blank">READ MORE</a>
         </div>

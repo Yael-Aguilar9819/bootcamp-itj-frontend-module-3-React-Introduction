@@ -1,9 +1,9 @@
 import React from 'react'
 import Post from './Post';
 
-const ListOfPosts = (props) => { 
+const ListOfPosts = ({posts}) => { 
   return (
-    props.posts.map(post => (
+    posts.map(post => (
       <Post
         key={post.title}
         post={post}
